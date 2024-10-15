@@ -18,9 +18,9 @@ loop = asyncio.get_event_loop()
 
 TOKEN = '7437598395:AAEJLc4z4gFLJlsYSQV8SlN5OT7QIcJ5EBg'
 MONGO_URI = 'mongodb+srv://Soul:JYAuvlizhw7wqLOb@soul.tsga4.mongodb.net'
-FORWARD_CHANNEL_ID = -5213725124
-CHANNEL_ID = -5213725124
-error_channel_id = -100
+FORWARD_CHANNEL_ID = -1005213725124
+CHANNEL_ID = -1005213725124
+error_channel_id = -1005213725124
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
